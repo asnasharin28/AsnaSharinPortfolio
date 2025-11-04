@@ -43,7 +43,7 @@ export default function Contact() {
 
   {/* Contact image */}
   <img
-    src="/asnacontact2.jpg"
+    src="/asnacontact.jpg"
     alt="Contact"
     className="rounded-2xl shadow-lg object-cover w-80 h-[24rem] sm:w-80 sm:h-[26rem] md:w-88 md:h-[28rem]"
   />
