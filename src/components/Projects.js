@@ -2,25 +2,25 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Taxi Kerala",
-    link: "https://taxiskerala.com",
-    image: "/logo taxikerala.png",
+    title: "Tableau Sales Dashboard",
+    link: "#",
+    image: "/tableauproj.png",
     description:
-      "WordPress developed website for a taxi booking service, featuring a user-friendly interface and seamless booking experience.",
+      "Designed an interactive Tableau dashboard visualizing regional and product-wise sales trends for quick business insights.",
   },
   {
-    title: "Home Decor Booking",
-    link: "https://shaalah.com",
-    image: "/shaalah logo-01.png",
+    title: "SQL Data Analysis Project",
+    link: "#",
+    image: "/sqlproject.jpg",
     description:
-      "Shopify-based online store for home decor products with seamless browsing and booking experience.",
+      "Queried, filtered, and aggregated large datasets using SQL to uncover key performance metrics and business patterns.",
   },
    {
-    title: "House Boat Booking",
-    link: "https://kadathuhouseboat.com",
-    image: "/houseboat logodark-02-02.png",
+    title: "Excel Data Cleaning Project",
+    link: "#",
+    image: "/excelproj.jpg",
     description:
-      "WordPress developed website for a houseboat booking service, featuring a user-friendly interface and seamless booking experience.",
+      "Cleaned and structured messy datasets using Excel formulas, filters, and pivot tools to make data ready for analysis.",
   },
 
 ];
