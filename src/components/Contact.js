@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin,  FaEnvelope } from "react-icons/fa";
-
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -12,21 +11,37 @@ export default function Contact() {
           <p className="text-gray-400 mb-6">
             Drop me a message and I’ll get back to you soon.
           </p>
-          <form className="flex flex-col gap-4">
+
+          {/* ✅ Netlify Form Integration */}
+          <form
+            name="contact" 
+            method="POST"
+            data-netlify="true"
+            className="flex flex-col gap-4"
+          >
+            {/* Required hidden input for Netlify */}
+            <input type="hidden" name="form-name" value="contact" />
+
             <input
               type="text"
+              name="name"
               placeholder="Your Name"
               className="p-3 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              required
             />
             <input
               type="email"
+              name="email"
               placeholder="Your Email"
               className="p-3 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              required
             />
             <textarea
               rows="4"
+              name="message"
               placeholder="Your Message"
               className="p-3 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              required
             ></textarea>
             <button
               type="submit"
@@ -36,22 +51,16 @@ export default function Contact() {
             </button>
           </form>
         </div>
-{/* Right side - Image */}
-<div className="relative flex justify-center items-center">
-  {/* Background glow */}
-  <div className="absolute -z-10 w-96 h-96 bg-yellow-400 rounded-full blur-3xl opacity-40"></div>
 
-  {/* Contact image */}
-  <img
-    src="/asnacontact.jpg"
-    alt="Contact"
-    className="rounded-2xl shadow-lg object-cover w-80 h-[24rem] sm:w-80 sm:h-[26rem] md:w-88 md:h-[28rem]"
-  />
-</div>
-
-
-
-
+        {/* Right side - Image */}
+        <div className="relative flex justify-center items-center">
+          <div className="absolute -z-10 w-96 h-96 bg-yellow-400 rounded-full blur-3xl opacity-40"></div>
+          <img
+            src="/asnacontact.jpg"
+            alt="Contact"
+            className="rounded-2xl shadow-lg object-cover w-80 h-[24rem] sm:w-80 sm:h-[26rem] md:w-88 md:h-[28rem]"
+          />
+        </div>
 
         {/* Socials */}
         <motion.div
@@ -70,14 +79,13 @@ export default function Contact() {
               <FaGithub />
             </a>
             <a
-              href="www.linkedin.com/in/asna-sharin-pv-b3757025a"
+              href="https://www.linkedin.com/in/asna-sharin-pv-b3757025a"
               target="_blank"
               rel="noreferrer"
               className="hover:text-blue-400 transition transform hover:scale-110"
             >
               <FaLinkedin />
             </a>
-           
             <a
               href="mailto:asnasharin2003@gmail.com"
               className="hover:text-pink-400 transition transform hover:scale-110"
@@ -85,7 +93,8 @@ export default function Contact() {
               <FaEnvelope />
             </a>
           </div>
-        </motion.div>      </div>
+        </motion.div>
+      </div>
     </section>
   );
 }
