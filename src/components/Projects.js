@@ -2,28 +2,56 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Tableau Sales Dashboard",
-    link: "#",
-    image: "/tableauproj.png",
+    title: "Data Warehousing Project (SQL)",
+    link: "https://github.com/asnasharin28/sql-data-warehouse-project",
+    image: "/datawarehousing.jpg",
     description:
-      "Designed an interactive Tableau dashboard visualizing regional and product-wise sales trends for quick business insights.",
+      "Designed a multi-layered data warehouse using SQL with bronze, silver, and gold layers, optimizing data for analytics.",
   },
   {
-    title: "SQL Data Analysis Project",
-    link: "#",
-    image: "/sqlproject.jpg",
+    title: "Data Cleaning in SQL — Global Layoffs Dataset",
+    link: "https://github.com/asnasharin28/sql-data-cleaning-project",
+    image: "/datacleaning.jpg",
     description:
-      "Queried, filtered, and aggregated large datasets using SQL to uncover key performance metrics and business patterns.",
+      "Cleaned a real-world Global Layoffs dataset using MySQL by removing duplicates, fixing data types, standardizing text fields, handling null values, and preparing the dataset for further analysis.",
   },
-   {
-    title: "Excel Data Cleaning Project",
-    link: "#",
-    image: "/excelproj.jpg",
+  {
+    title: "Sales & Customer Dashboard (Tableau)",
+    link: "https://public.tableau.com/app/profile/asna.sharin/viz/salesdashboard_17635542725300/SalesDashboard",
+    image: "/Customer Dashboard.png",
     description:
-      "Cleaned and structured messy datasets using Excel formulas, filters, and pivot tools to make data ready for analysis.",
+      "Interactive Tableau dashboards with YOY comparison, KPIs, weekly trends, navigation buttons, and dynamic filters.",
   },
-
+  {
+    title: "Coffee Sales Dashboard (Excel)",
+    link: "https://github.com/asnasharin28/excel-coffee-sales-dashboard-project",
+    image: "/Coffee Orders Dashboard Image.png",
+    description:
+      "Excel dashboard analyzing coffee bean sales using pivot charts, slicers, and trend analysis.",
+  },
+  {
+    title: "EDA Project in SQL",
+    link: "https://github.com/asnasharin28/sql-exploratory-data-analysis-EDA-",
+    image: "/edasql.jpg",
+    description:
+      "Conducted exploratory SQL analysis to identify trends, summarize metrics, and derive actionable insights.",
+  },
+  {
+    title: "British Airways Review Dashboard (Tableau)",
+    link: "https://public.tableau.com/app/profile/asna.sharin/viz/BritishAirwaysReviews_17639048405030/BritishAircraftReviewDashboard",
+    image: "/British Aircraft Review Dashboard.png",
+    description:
+      "Tableau dashboard visualizing customer reviews by aircraft, country, traveler type, and service metrics.",
+  },
+  {
+    title: "Bike Sales Dashboard (Excel)",
+    link: "https://github.com/asnasharin28/excel-bike-sales-dashboard-project",
+    image: "/Bike Sales Dashboard Image.png",
+    description:
+      "Interactive Excel dashboard tracking bike sales trends, customer demographics, and purchase behavior.",
+  },
 ];
+
 
 export default function Projects() {
   return (
