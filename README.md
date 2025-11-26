@@ -20,7 +20,7 @@ The portfolio is fully responsive, interactive, and designed for a clean, modern
 
 - **Frontend:** React.js (JavaScript, HTML5, CSS3)
 - **Styling:** Tailwind CSS / Custom CSS
-- **Hosting:** GitHub Pages (or Vercel)
+- **Hosting:** GitHub Pages
 - **Version Control:** Git & GitHub
 
 ---
