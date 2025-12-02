@@ -23,6 +23,13 @@ const projects = [
       "Interactive Tableau dashboards with YOY comparison, KPIs, weekly trends, navigation buttons, and dynamic filters.",
   },
   {
+    title: "HR Dashboard (Tableau)",
+    link: "https://public.tableau.com/app/profile/asna.sharin/viz/HRDashboard_17646541025040/HRSummary",
+    image: "/HR_dashboard.png",
+    description:
+      "An interactive HR analytics dashboard featuring a summary of key workforce metrics and a detailed employee view. It includes KPIs, hiring trends, demographics, roles, salaries, and employment status, supported by dynamic filters and smooth navigation for quick HR insights.",
+  },
+  {
     title: "Coffee Sales Dashboard (Excel)",
     link: "https://github.com/asnasharin28/excel-coffee-sales-dashboard-project",
     image: "/Coffee Orders Dashboard Image.png",
