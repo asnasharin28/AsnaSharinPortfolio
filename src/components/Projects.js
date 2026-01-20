@@ -9,6 +9,22 @@ const projects = [
       "Designed a multi-layered data warehouse using SQL with bronze, silver, and gold layers, optimizing data for analytics.",
   },
   {
+  title: "Financial Fraud Analysis Dashboard (Power BI)",
+  link: "https://github.com/asnasharin28/financial-fraud-analysis-powerbi",
+  image: "/Finacial fraud analysis dashboard_image.png",
+  description:
+    "End-to-end fraud analysis using SQL and Power BI with EDA, risk-level segmentation, and fraud insights by country, transaction type, and time.",
+},
+{
+  title: "Blinkit Sales Analysis Dashboard (Power BI)",
+  link: "https://github.com/asnasharin28/blinkit-sales-analysis-dashboard-powerbi",
+  image: "/Blinkit Dashboard.png",
+  description:
+    "Power BI dashboard analyzing Blinkit grocery sales with KPIs, item and outlet performance, sales trends, and data cleaning performed using Power Query.",
+},
+
+
+  {
     title: "Data Cleaning in SQL — Global Layoffs Dataset",
     link: "https://github.com/asnasharin28/sql-data-cleaning-project",
     image: "/datacleaning.jpg",
